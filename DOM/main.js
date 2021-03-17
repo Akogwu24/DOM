@@ -95,16 +95,19 @@
 
 //Create Element
 //create a div
-const newDiv = document.createElement('div');
-newDiv.className = 'hello';
-newDiv.id = 'hello2';
-newDiv.setAttribute('title', 'hello3');
+// const newDiv = document.createElement('div');
+// newDiv.className = 'hello';
+// newDiv.id = 'hello2';
+// newDiv.setAttribute('title', 'hello3');
 
 //create a text node
-const newDivText = document.createTextNode('my people');
-newDiv.appendChild(newDivText);
+// const newDivText = document.createTextNode('my people');
+// newDiv.appendChild(newDivText);
 
-const container = document.querySelector('header .container');
-const h1 = document.querySelector('header h1');
-console.log(newDiv);
-container.insertBefore(newDiv, h1);
+// const container = document.querySelector('header .container');
+// const h1 = document.querySelector('header h1');
+// console.log(newDiv);
+// container.insertBefore(newDiv, h1);
+
+// const multipleElelments = document.querySelectorAll('.row div');
+// console.log(multipleElelments);
