@@ -111,3 +111,6 @@
 
 // const multipleElelments = document.querySelectorAll('.row div');
 // console.log(multipleElelments);
+const title = document.getElementById('header-title');
+title.innerText = 'This is the web page title';
+title.style.backgroundColor = 'rebeccapurple';
