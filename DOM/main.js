@@ -126,8 +126,25 @@ const addBtn = document.getElementById('main').children[1].children[1];
 addBtn.setAttribute('value', 'ADD YOUR ITEMS');
 
 const listItem = document.createElement('li');
-listItem.innerHTML = 'newly added item';
-
+listItem.innerHTML = 'I am newly added item';
 let list = document.querySelector('#items');
-list.cla;
-list.appendChild(listItem);
+list.appendChild(listItem).classList.add('list-group-item');
+
+//we want to target the list items here so we can change their bg-colors
+//even numbered tags first
+const firstLiTag = document.querySelectorAll('li:nth-child(odd)')[0];
+firstLiTag.style.backgroundColor = 'teal';
+
+const thirdLiTag = document.querySelectorAll('li:nth-child(odd)')[1];
+thirdLiTag.style.backgroundColor = 'teal';
+
+const fifthLiTag = document.querySelectorAll('li:nth-child(odd)')[2];
+fifthLiTag.style.backgroundColor = 'teal';
+
+//Odd numbered Tags
+//second list item
+const secondLiTag = document.querySelectorAll('li:nth-child(even)')[0];
+secondLiTag.style.backgroundColor = '#b6f0d5';
+//fourth list item
+const fourthLiTag = document.querySelectorAll('li:nth-child(even)')[1];
+fourthLiTag.style.backgroundColor = '#b6f0d5';
