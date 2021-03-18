@@ -6,6 +6,7 @@ An Object (typically a Function) is said to be a First Class Citizen if:
 * Be stored in some data Structure.
 * Hold their own Properties and methods.
 JavaScript function are First Class citizens while in some other programming languages like C, the Functions are Second class Citizens s they do not have the Characteristics higlighted above.
+while second Class Citizens cannot be used as values eg loops
 
 
 ## Advntages of First Class Citizen Functions

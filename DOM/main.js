@@ -109,8 +109,25 @@
 // console.log(newDiv);
 // container.insertBefore(newDiv, h1);
 
-// const multipleElelments = document.querySelectorAll('.row div');
-// console.log(multipleElelments);
-const title = document.getElementById('header-title');
-title.innerText = 'This is the web page title';
-title.style.backgroundColor = 'rebeccapurple';
+//My Own DOM manipulations
+const header = document.getElementById('main-header');
+header.style.backgroundColor = 'red';
+
+const headingTitle = document.getElementById('header-title');
+headingTitle.innerText = 'Akogwu Changed me!!!!!!';
+
+const topInput = document.querySelector('header input');
+topInput.setAttribute(
+  'placeholder',
+  'iput the item name let me search for you.'
+);
+
+const addBtn = document.getElementById('main').children[1].children[1];
+addBtn.setAttribute('value', 'ADD YOUR ITEMS');
+
+const listItem = document.createElement('li');
+listItem.innerHTML = 'newly added item';
+
+let list = document.querySelector('#items');
+list.cla;
+list.appendChild(listItem);
